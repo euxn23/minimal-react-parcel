@@ -1,0 +1,28 @@
+{
+  "name": "minimal-react-parcel",
+  "version": "0.1.0",
+  "description": "minimal react learning repository build by parcel",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "prettier --write \"./**/*.js{,x}\"",
+    "start": "parcel src/index.html",
+    "test": "prettier --list-different \"./**/*.js{,x}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euxn23/minimal-react-parcel.git"
+  },
+  "author": "euxn23",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/euxn23/minimal-react-parcel/issues"
+  },
+  "homepage": "https://github.com/euxn23/minimal-react-parcel#readme",
+  "devDependencies": {
+    "parcel": "^1.9.7",
+    "prettier": "^1.14.2",
+    "prettier-cli": "^0.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
